@@ -1,6 +1,7 @@
 version: "3"
+
 services:
   javawebapp:
-    image: nsrahul/javakitty:${BUILD_NUMBER}
+    image: nsrahul/javakitty:2
     ports:
-      - "9090:8080"
+      - "8080:8080"
