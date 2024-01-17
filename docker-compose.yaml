@@ -2,6 +2,6 @@ version: "3"
 
 services:
   javawebapp:
-    image: nsrahul/javakitty:2
+    image: nsrahul/javakitty:${version}
     ports:
       - "8080:8080"
